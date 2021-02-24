@@ -1,0 +1,19 @@
+{
+  "name": "abstract",
+  "version": "1.0.0",
+  "description": "<img align=left src=\"https://cdn.discordapp.com/attachments/810483192145379372/813428146236817418/Sans_titre_-_1.png\" width=\"220\" alt=\"Abstract\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "discord.js": "^12.5.1",
+    "emoji-api": "^1.0.2",
+    "mongoose": "^5.11.17"
+  }
+}
