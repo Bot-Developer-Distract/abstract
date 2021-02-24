@@ -2,11 +2,11 @@
 
 # Abstract
 
-**ATTENTION**: Ce projet n'est plus à jour, le bot n'existe plus, il a été crée uniquement pour que j'apprenne le JavaScript, mais maintenant je pars apprendre le C et le C++ LET'S GO, donc ce github est toujours accessible car j'ai vraiment aimé taffer dessus, mais le bot lui n'existe plus.
+**ATTENTION**: Ce projet n'est plus à jour par son créateur (Squance), le bot n'existe plus, J'ai donc décidé de reprendre le bot en main et de l'améliorer.
 
 
 
-> [Abstract](http://bit.ly/2Nr55Ec), mon premier projet de programmation et mon premier repository Github, est un bot Discord français et développé en utilisant la librairie [Discord.JS](https://discord.js.org/#/). Au départ, le bot a été développé uniquement pour montrer qu'on pouvait faire quelque chose avec aucune compétence, je ne m'étais dit à aucun moment que peut-être j'aimerais la programmation <3. Au final, j'ai pensé que ces dizaines (voire des centaines) d'heures de travail devaient être partagées avec les gens.. Parce qu'ensemble c'est toujours mieux que tout seul x')
+> [Abstract](https://bit.ly/2NXOLdZ), mon premier projet de programmation et mon premier repository Github, est un bot Discord français et développé en utilisant la librairie [Discord.JS](https://discord.js.org/#/). Au départ, le bot a été développé uniquement pour montrer qu'on pouvait faire quelque chose avec aucune compétence, je ne m'étais dit à aucun moment que peut-être j'aimerais la programmation <3. Au final, j'ai pensé que ces dizaines (voire des centaines) d'heures de travail devaient être partagées avec les gens.. Parce qu'ensemble c'est toujours mieux que tout seul x')
 
 ### Les commandes d'Abstract
 - 🍻 **un système de compteur** 
@@ -48,10 +48,10 @@ Si vous invitez le bot, faites attention aux permissions que vous lui donnez, et
 
 ## Quelques liens utiles
 
-* **Invitation**: [http://bit.ly/2Nr55Ec](http://bit.ly/2Nr55Ec)
+* **Invitation**: [https://bit.ly/2NXOLdZ](https://bit.ly/2NXOLdZ)
 * **Documentation** : [https://squance.gitbook.io/abstract/]()
-* **Github** : [https://github.com/squance/abstract](https://github.com/squance/abstract)
-* **Serveur Support** : [http://bit.ly/2ZEqXP6](http://bit.ly/2ZEqXP6)
+* **Github** : [https://github.com/Wuzax/abstract](https://github.com/Wuzax/abstract)
+* **Serveur Support** : [https://discord.gg/srDMc7XBbM](https://discord.gg/srDMc7XBbM)
 
 ## Contribuer au projet
 - **Contribuer sur Github :**
