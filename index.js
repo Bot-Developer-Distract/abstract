@@ -76,7 +76,7 @@ const connect = async () => {
     })
     
     // HANDLER DES EVENTS
-    fs.readdir("./src/Events/", function(error, files) {
+    fs.readdir("./src/events/", function(error, files) {
     
         if (error) return client.error2(error)
 
@@ -84,7 +84,7 @@ const connect = async () => {
     
         files.forEach((file) => {
 
-            const events = require(`./src/Events/${file}`);
+            const events = require(`./src/events/${file}`);
 
             const event = file.split(".")[0];
 
