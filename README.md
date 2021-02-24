@@ -5,7 +5,7 @@
 **ATTENTION**: Ce projet n'est plus à jour par son créateur (Squance), le bot n'existe plus, J'ai donc décidé de reprendre le bot en main et de l'améliorer.
 
 
-
+> Message du créateur:
 > [Abstract](https://bit.ly/2NXOLdZ), mon premier projet de programmation et mon premier repository Github, est un bot Discord français et développé en utilisant la librairie [Discord.JS](https://discord.js.org/#/). Au départ, le bot a été développé uniquement pour montrer qu'on pouvait faire quelque chose avec aucune compétence, je ne m'étais dit à aucun moment que peut-être j'aimerais la programmation <3. Au final, j'ai pensé que ces dizaines (voire des centaines) d'heures de travail devaient être partagées avec les gens.. Parce qu'ensemble c'est toujours mieux que tout seul x')
 
 ### Les commandes d'Abstract
