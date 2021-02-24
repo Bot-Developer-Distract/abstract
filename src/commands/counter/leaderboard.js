@@ -11,7 +11,7 @@ module.exports = class Leaderboard extends Command {
             usage: null,
             perm: [],
             botPerm: [],
-            aliases: ["c-leaderboard", "c-lead", "c-top", "counter-top", "counter-lead", "top", "counter-leaderboard"],
+            aliases: ["c-leaderboard", "c-lead", "c-top", "counter-top", "counter-lead", "top", "counter-leaderboard", "lb"],
             category: "counter",
             enabled: true
         })

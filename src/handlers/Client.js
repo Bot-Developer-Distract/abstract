@@ -21,17 +21,17 @@ class Abstract extends Client {
         this.categories = readdirSync("./src/commands");
         this.ownerID = "808148589385351170";
         this.links = {
-            invite: "http://bit.ly/2Nr55Ec",
+            invite: "https://bit.ly/2NXOLdZ",
             documentation: "https://squance.gitbook.io/abstract/",
-            github: "https://github.com/squance/abstract/settings",
-            support: "http://bit.ly/2ZEqXP6"
+            github: "https://github.com/Wuzax/abstract/",
+            support: "https://discord.gg/srDMc7XBbM"
         };
         this.privateGuild = "810483126556033024";
         this.privateChannels = {      // privateChannels sont sur le serveur privé, aka le serveur de logs
-            errors: "810611234268250123",
-            logs: "810611354746093568",
-            add: "810605415137935410",
-            remove: "810605521043849236"
+            errors: "813825357051854849",
+            logs: "813825357051854849",
+            add: "813823564884606996",
+            remove: "813823564884606996"
         };
         this.colors = {
             violet: "7289DA",
@@ -44,16 +44,16 @@ class Abstract extends Client {
             discordColor: "303136",
         };
         this.emotes = {
-            nope: "<:abstract_nope:810505516488982548>",
-            yup: "<:abstract_yup:810505516437471252>",
-            online: "<:online:811208952229396510>",
-            offline: "<:offline:811208952431771649>",
-            redSmallSquare: "<:small_red_square:810505516412567563>",
-            greenSmallSquare: "<:small_green_square:810505516266684427>",
-            greenArrow: "<:green_arrow:810530061382975488>",
-            channelNotFound: "<:channel_not_found:810602273645789204>",
-            role: "<:role:810603062716006470>",
-            file: "<:file:812757654354526208>"
+            nope: "<:error:776811164747038730>",
+            yup: "<:sucess:776811167804030976>",
+            online: "<:online:760805198477131778>",
+            offline: "<:offline:760805198171602944>",
+            redSmallSquare: "<:dnd:760805197130760203>",
+            greenSmallSquare: "<:online:760805198477131778>",
+            greenArrow: "<:sucess:776811167804030976>",
+            channelNotFound: "<:error:776811164747038730>",
+            role: "#️⃣",
+            file: "📁"
         };
     };
 

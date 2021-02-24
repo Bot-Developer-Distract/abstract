@@ -10,7 +10,7 @@ module.exports = class Help extends Command {
             usage: "(commande)",
             perm: [],
             botPerm: [],
-            aliases: [],
+            aliases: ["h"],
             category: "utile",
             enabled: true
         })
@@ -36,13 +36,13 @@ module.exports = class Help extends Command {
                     title: `Commande: ${command.help.name}`,
                     url: message.client.links.invite,
                     description: `Activée: ${command.help.enabled ? message.client.emotes.greenSmallSquare : message.client.config.redSmallSquare}
-                    Description: [${command.help.description}](${message.client.links.invite})
-                    Message: [${command.help.message ? command.help.message : `aucun`}](${message.client.links.invite})
-                    Aliases: [${command.help.aliases.length > 0 ? command.help.aliases.map(v => v).join(", ") : "aucun"}](${message.client.links.invite})
-                    Catégorie: [${command.help.category}](${message.client.links.invite})
-                    Utilisation: [${command.help.usage ? `${prefix}${command.help.name} ${command.help.usage}` : "aucune"}](${message.client.links.invite})
-                    Permissions: [${command.help.perm.length > 0 ? command.help.perm.map(v => v.toLowerCase()).join(", ") : "aucune"}](${message.client.links.invite})
-                    Permissions du bot: [${command.help.botPerm.length > 0 ? command.help.botPerm.map(v => v.toLowerCase()).join(", ") : "aucune"}](${message.client.links.invite})` //ok
+                    Description: \`${command.help.description}\`
+                    Message: \`${command.help.message ? command.help.message : `aucun`}\`
+                    Aliases: \`${command.help.aliases.length > 0 ? command.help.aliases.map(v => v).join(", ") : "aucun"}\`
+                    Catégorie: \`${command.help.category}\`
+                    Utilisation: \`${command.help.usage ? `${prefix}${command.help.name} ${command.help.usage}` : "aucune"}\`
+                    Permissions: \`${command.help.perm.length > 0 ? command.help.perm.map(v => v.toLowerCase()).join(", ") : "aucune"}\`
+                    Permissions du bot: \`${command.help.botPerm.length > 0 ? command.help.botPerm.map(v => v.toLowerCase()).join(", ") : "aucune"}\`` //ok
                 }
 
             });
@@ -68,7 +68,7 @@ module.exports = class Help extends Command {
                 description: `[Invitation](${message.client.links.invite})・[Support](${message.client.links.support})・[Github](${message.client.links.github})・[Doc](${message.client.links.documentation})
                 Tips: \`${prefix}help <commande>\`
 
-                **Configuration**
+                **Utilitaires**
                 ${arrayOfCommands.filter(c => c.name === "utile")[0].commands}
 
                 **Compteur**
